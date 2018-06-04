@@ -7,7 +7,7 @@ frequency auto-dialler.
 """
 from functools import partial
 from ..models import Session
-from ..marks import event_callback
+from ..marks import event_callback, callback
 from ..utils import get_logger
 from ..apps import app
 
